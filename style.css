@@ -1,0 +1,199 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+@font-face {
+  font-family: Geo;
+  src: url(//cdn.shopify.com/s/files/1/0557/0566/5721/t/2/assets/Geomanist-Light.otf?v=14943670270707041812);
+  src: url(//cdn.shopify.com/s/files/1/0557/0566/5721/t/2/assets/Geomanist-Light.otf?%23iefix&v=14943670270707041812) format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: Ame;
+  src: url(//cdn.shopify.com/s/files/1/0557/0566/5721/t/2/assets/americana-bold.ttf?v=9010423031374408192);
+  src: url(//cdn.shopify.com/s/files/1/0557/0566/5721/t/2/assets/americana-bold.ttf?%23iefix&v=9010423031374408192) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap; }
+
+	@font-face {
+		font-family: Ame;
+		src: url(//cdn.shopify.com/s/files/1/0557/0566/5721/t/2/assets/americana-roman.ttf?v=4365114053591392274);
+		src: url(//cdn.shopify.com/s/files/1/0557/0566/5721/t/2/assets/americana-roman.ttf?%23iefix&v=4365114053591392274) format("truetype");
+		font-weight: 400;
+		font-style: normal;
+		font-display: swap; }
+
+:root {
+	/*
+	--body: #7d1c21;
+	--body: rgb(49, 130, 183);
+	*/
+	--grey: #9f9f9f;
+	--yellow: #ffeb53;
+	--black: #000000;
+	--white: #eaf6fc;
+	--orange: #ff6200;
+	--purple: #8d048d;
+	--purplehover: #580458;
+	--font: 'Geo';
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	font-size: 16px;
+	font-family: var(--font);
+	background-color: var(--white);
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Ame';
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.85;
+	word-spacing: 0.05rem;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header-section {
+	background: url(./images/tura-home.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.header-wrapper {
+	background-color: #000000b5;
+	padding-bottom: 100px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 2% 8%;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.nav-log {
+	width: 30%;
+}
+
+.nav-logo a {
+	color: var(--white);
+	text-transform: uppercase;
+}
+
+.nav-logo a:hover {
+	color: var(--orange);
+}
+
+.nav-links {
+	display: flex;
+	justify-content: end;
+	gap: 25px;
+	width: 70%;
+	flex-wrap: wrap;
+}
+
+.nav-links a {
+	color: var(--white);
+	font-size: 1rem;
+	text-transform: uppercase;
+	transition: .85s ease-in-out;
+}
+
+.nav-links a:hover {
+	color: var(--orange);
+}
+
+.active a {
+	color: var(--orange);
+}
+
+.home {
+	padding: 0% 8%;
+	margin-bottom: 30px;
+}
+
+.home-container {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	width: 100%;
+}
+
+.home-wrapper {
+	width: 70%;
+	padding: 25px 0px;
+}
+
+.home-heading {
+	width: 550px;
+	margin-bottom: 50px;
+}
+
+.home-heading h1 {
+	font-size: 3rem;
+	color: var(--white);
+}
+
+.home-heading h1 span.orange {
+	color: var(--orange);
+}
+
+.home-info {
+	width: 550px;
+	margin-bottom: 50px;
+}
+
+.home-info p {
+	color: var(--grey);
+	margin-bottom: 15px;
+}
+
+.click {
+	background-color: transparent;
+	color: white;
+	border: 1px solid var(--orange);
+	padding: 15px 25px;
+	transition: 0.5s ease-in-out;
+}
+
+.click:hover {
+	background-color: transparent;
+	color: var(--orange);
+	border: 1px solid var(--white);
+}
+/*
+.img-wrapper {
+	width: 50%;
+}
+
+.img-box {
+	width: 100%;
+	border-radius: 30% 70% 70% 30%/ 30% 30% 70% 70%;
+	padding: 0px 0px 0px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--orange);
+}
+.img-box img {
+	width: 100%;
+	height: auto;
+	border-radius: 30% 70% 70% 30%/ 30% 30% 70% 70%;
+}
+*/
