@@ -96,6 +96,10 @@ a {
 	text-transform: uppercase;
 }
 
+.nav-logo a:hover {
+	color: var(--orange);
+}
+
 .nav-links {
 	display: flex;
 	justify-content: end;
