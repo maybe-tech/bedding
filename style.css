@@ -137,6 +137,7 @@ a {
 }
 
 .home-heading {
+	width: 550px;
 	margin-bottom: 50px;
 }
 
@@ -145,7 +146,12 @@ a {
 	color: var(--white);
 }
 
+.home-heading h1 span.orange {
+	color: var(--orange);
+}
+
 .home-info {
+	width: 550px;
 	margin-bottom: 50px;
 }
 
